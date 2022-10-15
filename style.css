@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --fs-body: 1.6rem;
+  
+  --ff-heading: 'Staatliches', cursive;
+  --ff-texting: 'Palanquin', sans-serif;
+
+  --fs-heading: 4rem;
+  --fs-texting: 2rem;
+  --fs-p: 1.5rem;
+
+  --bg-primary: #8E9AAF;
+  --bg-secondary: #CBC0D3;
+  --bg-main: #FFFFFF;
+
+  --fc-primary: #FFFFFF;
+  --fc-secondary: #23053A;
+  --fc-p: #23053A;
+  --fc-h2: #4A4E69;
+}
+
+body {
+  font-family: var(--ff-texting);
+  background-color: var(--bg-main);
+  color: var(--fc-primary);
+}
+
+.page {
+  max-width: 38.4rem;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+img:hover {
+  opacity: 0.8;
+}
+
+header {
+  font-family: var(--ff-heading);
+  background-color: var(--bg-primary);
+  text-align: center;
+  padding-bottom: 2.9rem;
+}
+
+header img {
+  width: 13.7rem;
+  height: 13.7rem;
+  animation: animation 1s 500ms backwards;
+}
+
+header h1 {
+  color: var(--ff-heading);
+  font-size: var(--fs-heading);
+  background-color: var(--bg-secondary);
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 4.8rem;
+  letter-spacing: 0.05em;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+main {
+  display: grid;
+  max-width: 32rem;
+  margin: 0 auto;
+  gap: 3.6rem;
+}
+
+main p {
+  max-width: 40.5rem;
+  height: 7.5rem;
+
+  font-size: var(--fs-p);
+  font-family: var(--ff-texting);
+  color: #55346e;
+
+  text-align: center;
+  line-height: 1.5rem;
+  line-height: lighter;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  margin: 3.4rem;
+}
+
+.card {
+  position: relative;
+  max-width: 32rem;
+  font-family: var(--ff-heading);
+}
+
+.card img {
+  /* height: 41.6rem; */
+  object-fit: cover;
+}
+
+.card h2 {
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+
+  width: 11.2rem;
+  height: 3.5rem;
+  border-radius: 2rem;
+  
+  background-color: var(--bg-main);
+  color: var(--fc-h2);
+  font-family: var(--ff-heading);
+  font-size: var(--fs-texting);
+
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@keyframes animation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+
+}
