@@ -36,6 +36,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ![pro3-2](https://user-images.githubusercontent.com/94652702/200231557-f990270b-2964-4dea-9ba0-33f014571e89.png)
 
+## Você pode acessar através do link abaixo:
+https://explorer-stage-03-2-mobile-first.vercel.app/
 
 ---
 
